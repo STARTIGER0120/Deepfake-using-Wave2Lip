@@ -16,10 +16,6 @@ Make sure you added this folder to your drive before executing code.
 
 **🧠 Video Output:**
 ---------
-###### 👉 Trump Speaking in Telugu (An Indian language):<br>
-
-[<img src="https://github.com/snehitvaddi/Deepfake-using-Wave2Lip/blob/main/Audio%20and%20Video/0-video.gif" width=600 height=400>](https://www.youtube.com/watch?v=D3b7RwuNEWQ)
-
 **🗺 Architecture:**
 ---------
 This approach generates accurate lip-sync by learning from an ``already well-trained lip-sync expert``. Unlike previous works that employ only a reconstruction loss or train a discriminator in a GAN setup, we use a pre-trained discriminator that is already quite accurate at detecting lip-sync errors. We show that fine-tuning it on the noisy generated faces reduces the discriminator's capacity to measure lip-sync, impacting the generated lip forms as well.
